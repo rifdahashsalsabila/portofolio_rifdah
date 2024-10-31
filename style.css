@@ -1,0 +1,74 @@
+/* Reset CSS untuk menghilangkan style bawaan browser */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Gaya header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Gaya section */
+section {
+  padding: 50px;
+}
+
+/* Gaya proyek */
+.proyek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.proyek-item {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.proyek-img {
+  width: 100%;
+}
+
+/* Gaya kontak */
+.kontak {
+  text-align: center;
+}
+
+/* Gaya footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

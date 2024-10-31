@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.circle-image {
+  border: 5px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10pxrgba (0, 0, 0, 0.5);
+}
+.tentangsaya {
+  text-align: center;
+}
+.rifdah {
+  text-align: center;
+}
+.ppl {
+  text-align: center;
+}
+header {
+  font-family: cursive;
+  background-color: #363636;
+  color: rgb(252, 252, 252);
+  font-size: large;
+  padding: 30px;
+  text-align: center;
+}
+.left {
+  background-color: rgb(155, 155, 155);
+  width: 50%;
+  height: 100px;
+  min-height: max-content;
+}
+.right {
+  background-color: rgb(190, 191, 194);
+  width: 50%;
+  height: 100px;
+  min-height: max-content;
+}
+
+.sertifikat {
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+.tentang {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+.about {
+  letter-spacing: 2px;
+  word-spacing: 1.5px;
+  line-height: 1.4;
+  text-indent: 2em;
+}
+.pendidikan {
+  letter-spacing: 2px;
+  word-spacing: 1.5px;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.sertifikat {
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 1.8;
+  text-indent: 2em;
+}
+
+footer {
+  text-align: center;
+}
